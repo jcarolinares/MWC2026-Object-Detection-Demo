@@ -1,0 +1,8 @@
+name: "MWC26 - Detect Objects on Camera"
+description: This example showcases object detection within a live feed from a USB camera and activate different modulinos based on it.
+ports: []
+bricks:
+- arduino:video_object_detection:
+    model: yolox-object-detection
+- arduino:web_ui: {}
+icon: 📽️
