@@ -16,4 +16,6 @@ This example was created as an interation of the official Object Detection Demo 
 * 1x Modulino LEDS
 * 1x Modulino Buzzer
 
+Created for the Mobile Word Congress Barcelona 2026 as a live demo.
+
 
