@@ -83,6 +83,7 @@ void set_cell_phone(bool state) {
         leds.show();
     }
   digitalWrite(LED_BUILTIN, HIGH);
+  delay(10000); // Time to avoid multiple activations in different frames
 }
 
 void set_bottle(bool state) {
@@ -102,6 +103,7 @@ void set_bottle(bool state) {
         leds.show();
     }
   digitalWrite(LED_BUILTIN, HIGH);
+  delay(10000); // Time to avoid multiple activations in different frames
 }
 
 void set_peace(bool state) {
@@ -121,6 +123,7 @@ void set_peace(bool state) {
         leds.show();
     }
   digitalWrite(LED_BUILTIN, HIGH);
+  delay(10000); // Time to avoid multiple activations in different frames
 }
 
 
